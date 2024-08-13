@@ -1,0 +1,78 @@
+body{
+    background-image: url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images.jpg);
+    background-repeat: no-repeat;
+  }
+  h1, p{
+    text-align: center;
+    color: #FFFFFf;
+    font-family: tahoma;
+  }
+  h1{
+    margin-bottom: 0;
+    font-size: 50px
+  }
+  p{
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  form{
+    margin-left: 20%;
+    background-color: rgba(54, 46, 144, 0.6);
+    width: 60%;
+    margin: 0, auto;
+    min-width: 300px;
+  }
+  fieldset{
+    border: 0;
+   
+  }
+  select{
+      font-family: Tahoma;
+      margin-left: 40%;
+      font-size: 15px;
+  }
+  legend{
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  label{
+    color: #ffffff;
+    padding-left: 20px;
+    font-style: inherit;
+    padding-bottom: 10px;
+    font-family: serif;
+    display: block;
+    font-size: 20px;
+  }
+  input{
+    color: #ffffff;
+    font-size: 75%;
+    margin-left: 15px;
+    background-color: rgb(16, 16, 78);
+  }
+legend.country{
+  padding-top: 20px;
+}
+
+label.country, label.feature{
+  font-family: Tahoma;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+textarea{
+  margin-left: 40%;
+  font-family: Tahoma;
+  background-color: rgb(16, 16, 78); 
+}
+
+button{
+  margin-left: 50%;
+  background-color:  #f93c3c;
+  font-style: italic;
+}
+
+
+

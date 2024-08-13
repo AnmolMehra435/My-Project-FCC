@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="surveyform.css">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    </head>
+    <body>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Let us know more about our coustmer</p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label">Enter Your Name:   <input type="text" id="name" placeholder="Enter Your Name" required/></label>
+          <label id="email-label">Enter Your Email id: <input type="email" id="email" placeholder="Enter Your Email" required/></label>
+          <label id="number-label">Enter Your Age:     <input type="number" id="number" min="18" max="60" placeholder="Age" required/></label>
+          </fieldset>
+          <fieldset>
+            <legend>What type of car do you drive?</legend>
+            <select id="dropdown">
+            <option>Select One</option>
+            <option>Mercedes</option>
+            <option>BMW</option>
+            <option>Audi</option>
+           </select>
+           </fieldset>
+          <fieldset>
+            <legend class="country">Which Country are you from?</legend>
+            <label class="country"><input type="radio" name="country" value="germany" checked>Germany</label>
+            <label class="country"><input type="radio" name="country" value="london">London</label>
+            <label class="country"><input type="radio" name="country" value="US">US</label>
+            <label class="country"><input type="radio" name="country" value="india">India</label>
+            </fieldset>
+            <fieldset>
+              <legend>What are the features your car provide?</legend>
+              <label class="feature"><input type="checkbox" value="speed"  checked>Speed</label>
+              <label class="feature"><input type="checkbox" value="Comfort">Comfort</label>
+              <label class="feature"><input type="checkbox" value="Look">Look</label>
+              </fieldset>
+              <fieldset>
+                <textarea placeholder="Additonal comments...." rows="3" cols="30"></textarea>
+              </fieldset>
+              <button type="submit" value="submit" id="Submit">Submit</button>
+        </form> 
+      </body>
+  </html>
