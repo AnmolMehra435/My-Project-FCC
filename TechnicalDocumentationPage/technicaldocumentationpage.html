@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="./technicaldocumentationpage.css">
+</head>
+<body>
+    <main id="main-doc">
+        <div class="main" id="main-div">
+            <div class="nav-div" >
+                <nav id="navbar">
+                    <header>
+                        <h1 class="nav-header">HTML</h1>
+                    </header>
+                    <ul>
+                        <li><a href="#introduction">Introduction</a></li>
+                        <li><a href="#working">Working</a></li>
+                        <li><a href="#tags">Tags</a></li>
+                        <li><a href="#elements">Elements</a></li>
+                        <li><a href="#attributes">Attributes</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content-div">
+                   <section class="main-section" id="introduction" aria-labelledby="introduction">
+                   <header>
+                    <h1 class="content-header">Introduction</h1>
+                   </header>
+                   <p>Today, I'm writing this tutorial to create a resource that will help you learn HTML in less than 30 days. Here's a recommended timeline for learning HTML, based on your educational background:</p>
+                   <ul>
+                    <li class="section">High School students and younger: Around 25 days</li>
+                    <li class="section">Those beyond High School: Around 20 days</li>
+                    <li class="section">College students and above: Around 10-20 days</li>
+                   </ul>
+                   <p>You may be wondering why I'm discussing these timelines. It's important for me to set expectations before you start your journey of learning html with me.</p>
+                   <p>My name is Harry (the same CodeWithHarry guy from YouTube), and today I'm writing this comprehensive HTML tutorial for all of you. Let's jump right into HTML!</p>
+                   <h3>What is Html?</h3>
+                   <p>HTML (HyperText Markup Language) was created by Tim Berners-Lee in 1991 as a standard for creating web pages. It's a markup language used to structure content on the web, defining elements like headings, paragraphs, links, and images. HTML forms the backbone of web content. In layman's terms, HTML is like the skeleton of a website. It's a set of instructions that tells a web browser how to display text, images, videos, and other elements on a webpage. Think of it as the building blocks that create the structure and look of a website, similar to how bricks and mortar are used to build a house.</p>
+                   <h3></h3>
+                </section>
+
+                   <section class="main-section" id="working" aria-labelledby="working">
+                    <header>
+                        <h1 class="content-header">Working</h1>
+                    </header>
+                    <p>You must have heard of frontend and backend. Frontend refers to the visible part of a website or app that users interact with, like the tables, images, and buttons. It's built using languages like HTML, CSS, and JavaScript. The backend, on the other hand, handles behind-the-scenes operations like storing and processing data when users interact with the frontend. It uses languages like Python, Ruby, and Java. In essence, frontend is what users see, while backend manages the functionality.</p>
+                    <h3>How do websites work?</h3>
+                    <p>When we want to access any information on the internet, we search for it using a web browser. The web browser retrieves the content from web servers, where it is stored in the form of HTML documents.</p>
+                    <p>An HTML document is created by writing code with specific tags in a code editor of your choice. The document is then saved with the '.html' extension. Once saved, the browser interprets the HTML document, reads it, and renders the web page.</p>
+                   <h3>How does a basic website work?</h3>
+                   <ul>
+                    <li class="section">Web Browser(client) requests websites like www.codewithharry.com from the web server.</li>
+                    <li class="section">Web server in return sends HTML, CSS, and JavaScript files to it.</li>
+                    <li class="section">HTML, CSS, and JavaScript files are parsed by a web browser which is responsible for showing you a beautiful website.</li>
+                   </ul>
+                   </section>
+                   <section class="main-section" id="tags" aria-labelledby="tags">
+                    <header>
+                        <h1 class="content-header">Tags</h1>
+                    </header>
+                    <p>If you want to build a beautiful website, tags are essential elements that help you achieve that.
+                    An HTML tag acts as a container for content or other HTML tags. Tags are words enclosed within < and > angle brackets.    
+                    They serve as keywords that instruct the web browser on how to format and display the content.</p>
+                    <h3>Document Structure Tags</h3>
+                    <ol>
+                        <li class="section"><code>&lt;!DOCTYPE html&gt;:</code> Specifies the document type</li>
+                        <li class="section"><code>&lt;html&gt;:</code> Encloses the entire HTML document.</li>
+                        <li class="section"><code>&lt;head&gt;:</code> Contains meta-information and links to scripts and stylesheets.</li>
+                        <li class="section"><code>&lt;body&gt;:</code> Contains the content of the web page.</li>
+                    </ol>
+                    <h3>Metadata Tags</h3>
+                    <ol>
+                        <li class="section"><code>&lt;title&gt;:</code> Sets the title of the web page.</li>
+                        <li class="section"><code>&lt;meta&gt;:</code> Provides metadata such as character set, author, and viewport settings.</li>
+                        <li class="section"><code>&lt;link&gt;:</code> Links external resources like stylesheets.</li>
+                    </ol>
+                    <h3>Text Formatting Tags</h3>
+                 <ol>
+                    <li class="section"><code>&lt;p&gt;:</code> Paragraph.</li>
+                    <li class="section"><code>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;:</code> Headings</li>
+                    <li class="section"><code>&lt;strong&gt;:</code> Strong emphasis (typically bold).</li>
+                    <li class="section"><code>&lt;em&gt;:</code> Emphasis (typically italic).</li>
+                    <li class="section"><code>&lt;br&gt;:</code> Line break.</li>
+                    <li class="section"><code>&lt;hr&gt;:</code> Horizontal rule.</li>
+                 </ol>
+                  </section>
+                   <section class="main-section" id="elements" aria-labelledby="elements">
+                    <header>
+                        <h1 class="content-header">Elements</h1>
+                    </header>
+                    <p>Beginners often get confused between HTML elements, nested elements, and tags. Let's clarify the difference by understanding each one step-by-step.</p>
+                    <h3>What is an HTML Element?</h3>
+                    <p>An HTML element is a complete set that consists of a start tag (or opening tag), content, and an end tag (or closing tag).<br>
+                    <strong>HTML Element = Start Tag + Content + End Tag</strong>
+                    <br>For example:</p>
+                    <textarea viewonly rows="1" cols="10"><h1>This is our first heading</h1></textarea>
+                    <p>In this example, &lt;h1&gt; is the start tag, "This is our first heading" is the content, and &lt;/h1&gt; is the end tag. Together, they form an HTML element.</p>
+                    <h3>What is a Nested HTML Element?</h3>
+                    <p>A nested HTML element is an HTML structure where one element is placed inside another element.<br>
+                    The enclosing element is often referred to as the "parent," while the enclosed element is called the "child."<br>
+                    <strong>Nested HTML Element = One HTML Element Inside Another HTML Element</strong><br>
+                    For example:</p>
+                    <textarea viewonly rows="1" cols="10"><h1><b>This is our first heading</b></h1></textarea>
+                    <p>In this example, the &lt;b&gt; element (child) is nested inside the &lt;h1&gt; element (parent).</p>
+                    <h3>Key Takeaways</h3>
+                    <ul>
+                        <li class="section">Tags set boundaries; elements include tags plus content.</li>
+                        <li class="section">Tags come in pairs (most of the time), whereas elements may include nested elements.</li>
+                        <li class="section">Self-closing or void elements like <br /> are still considered elements, even though they don't have a closing tag or content.</li>
+                        <li class="section">Elements can be "parent" or "child" when nested, but tags cannot.</li>
+                    </ul>
+                   </section>
+                   <section class="main-section" id="attributes" aria-labelledby="attributes">
+                    <header>
+                        <h1 class="content-header">Attributes</h1>
+                    </header>
+                    <p>HTML attributes are used to define the characteristics of an HTML element. They are placed within the element's opening tag and consist of two parts: the name and the value.</p>
+                    <h3>Types of HTML Attributes</h3>
+                    <p>There are three main types of HTML attributes:</p>
+                    <ol>
+                        <li class="section"><strong>Core Attributes:</strong> These are basic attributes that can be applied to most HTML elements. Examples include id, class, and style.</li>
+                        <li class="section"><strong>Internationalization Attributes:</strong> These attributes help adapt the document to different languages and regions. Examples include lang and dir.</li>
+                        <li class="section"><strong>Generic Attributes:</strong> These attributes provide additional information about the element but don't necessarily affect its appearance or behavior. Examples include data-* attributes for storing custom data private to the page or application.</li>
+                        </ol>
+                        
+                        <p>Core attributes are some of the most widely used attributes in HTML. There are four main types:</p>
+                        <ul>
+                            <li class="section">id</li>
+                            <li class="section">class</li>
+                            <li class="section">title</li>
+                            <li class="section">style</li>
+                        </ul>
+                    
+                   </section>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
