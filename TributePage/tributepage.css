@@ -1,0 +1,76 @@
+.body{
+    display: block;
+    background-color: rgb(199, 97, 97, 0.8);
+    margin: 20px auto; 
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    border-bottom: 5px solid rgb(109, 9, 9)
+}
+h1, p {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    display: block;
+    padding-top: 50px;
+ 
+}
+p{
+    padding-bottom: 20px;
+}
+.image{
+    background-color: antiquewhite;
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{
+    text-align: center;
+    color: rgb(55, 6, 6);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Tahoma;
+}
+
+.content{
+    display:block;
+    margin-top: 30px;
+    height: 90%;
+    width: 60%;
+    margin-left: 20%;
+
+}
+
+li{
+    font-family: Tahoma, Verdana;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+h3{
+    text-align: center;
+    font-family: Verdana;
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    color: rgb(203, 10, 10);
+}
